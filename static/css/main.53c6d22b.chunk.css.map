@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,QACE,WAAY,CACZ,YAAa,CACb,eACF","file":"main.53c6d22b.chunk.css","sourcesContent":[".active{\n  width: 500px;\n  height: 500px;\n  background: pink;\n}"]}
