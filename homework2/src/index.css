@@ -1,0 +1,162 @@
+/* 在CSS文件中引入antd的css文件 */
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ccc;
+}
+.header{
+    height: 50px;
+    background-color: #444;
+}
+.header header{
+    width: 1200px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.header header a{
+    margin: 0 20px;
+    color: #fff;
+}
+
+.header img{
+    width: 120px;
+}
+
+/* content */
+.content{
+    width: 1200px;
+    margin: 30px auto 0;
+}
+.left{
+    width: 915px;
+    float: left;
+    background-color: #fff;
+    padding-left:15px;
+}
+.left1{
+    width: 915px;
+    height:40px;
+    float: left;
+    background-color: rgb(226, 221, 221);
+    
+}
+.left2{
+    width: 900px;
+    height:40px;
+    float: left;
+    background-color: red;
+}
+.right{
+    width: 270px;
+    float: right;
+    height: 800px;
+}
+.right1{
+    width: 270px;
+    height:120px;
+    float: right;
+    background-color: #fff;
+}
+.right2{
+    margin-top:20px;
+    width: 270px;
+    height:300px;
+    float: right;
+    background-color: #fff;
+}
+
+/* home */
+.home{
+    padding-top:5px;
+    height:40px;
+    background-color: rgb(238, 238, 238);
+}
+.home a{
+    font-size:16px;
+    margin: 0 20px;
+    color: green; 
+}
+/* .home a:focus
+{
+background-color:green;
+color: white;
+} */
+
+/* app */
+.out{
+    width:302px;
+    height:30px;
+    border: black solid 1px;
+    background-color: white;
+    /* position: relative;
+    top:800px; */
+}
+.page{
+    width:30px;
+    height: 30px;
+    float: left;
+    background-color:white;
+    border:0.5px solid black;
+    text-align: center;;
+    /* margin-left: 10px; */
+}
+
+/* login */
+.login1 input{
+    margin-top:20px;
+    width:300px;
+    height:30px;
+    border-radius: 3px;
+    border:0.5px solid gray;
+}
+.login1 button{
+    margin-top:30px;
+    width:200px;
+    height:30px;
+    border-radius: 3px;
+    background-color: rgb(29, 129, 187);
+    color:white;
+    border:0;
+}
+.login1{
+    height:200px;
+    text-align: center;
+}
+
+/* content */
+.content1 img{
+    width:35px;
+    height: 35px;
+    margin-left:10px;
+}
+.content1 p{
+    font-size: 11px;
+}
+.content1 button{
+    background-color: rgb(221, 221, 221);
+    width:40px;
+    height:25px;
+    border:0;
+    font-size:11px;
+    color:gray;
+    border-radius: 3px;
+}
+.content1{
+    border:0.5px solid #e4e0e0;
+    width:900px;
+    height:50px;
+    overflow:'hidden';
+
+}
+.content1:hover{
+    background-color: rgb(240, 238, 238);
+}
+.image{
+    float: right;
+}
+.time{
+    float: right;
+}
